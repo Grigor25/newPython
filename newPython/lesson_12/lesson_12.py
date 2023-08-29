@@ -1,3 +1,4 @@
+import get_users
 #1
 
 # math,random,copy,deepcopy
@@ -18,13 +19,6 @@
 #kod@ erb sksi ashxatel arajin@ run e linum __main__ fayl@
 
 #5
-from get_users import list
-from get_users import tuple
-from get_users import set
-
-list()
-tuple()
-set()
 
 
 #6
@@ -33,7 +27,7 @@ import fibonachi_num
 print(fibonachi_num.fib(15))
 
 
-
 import sys
-for d in sys.path:
-    print(d)
+users_data = input("please write type")
+print(sys.argv[0])
+

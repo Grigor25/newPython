@@ -1,16 +1,9 @@
-
-
-
-def list():
-    users = "Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"
+import sys
+users = "Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"
+print('true')
+if(sys.argv[1] == 'list'):
     print(list(users))
-
-def tuple():
-    users = "Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"
-
+elif(sys.argv[1]  == 'tuple'):
     print(tuple(users))
-
-def set():
-    users = "Lilit", "Aren", "Janna", "Samvel", "Gohar", "Armen", "Luiza"
+elif(sys.argv[1]  == 'set'):
     print(set(users))
-
