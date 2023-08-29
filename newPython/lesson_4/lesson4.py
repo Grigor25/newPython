@@ -4,12 +4,9 @@
 
 #2
 x = [1,2,5, [8,9,10]]
-y = x[3]
-j = y.copy()
-z = x.copy()
-z[3] = [5]
-print(y)
-print(x)
+y = x.copy()
+y[3] = 5
+print(x,y)
 #3 tuple - ('Erk','Ereq','Choreq','Hing','Urb',['Shb'])
 # tuple[5].append('kiraki')
 
