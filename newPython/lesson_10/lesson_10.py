@@ -60,14 +60,32 @@ print(is_prime(100))
 #5
 
 def fib(num):
-    defoul_list = [1,2,3]
-    if num in defoul_list:
+    default_list = [1,2,3]
+    if num in default_list:
         return num
     else:
-        while len(defoul_list) < num:
-            defoul_list.append(defoul_list[-1] + defoul_list[-2])
-    return defoul_list[-1]
+        while len(default_list) < num:
+            default_list.append(default_list[-1] + default_list[-2])
+    return default_list[-1]
 print(fib(14))
+
+def fib_2(n):
+    x = 1
+    y = 2
+    fib_number = 2
+    while fib_number != n:
+        if n < 2:
+            return n
+        else:
+            print(fib_number)
+            x,y = y,x + y
+            print(x,y)
+            fib_number += 1
+    return y
+
+print(fib_2(1),'fib2')
+
+
 
 
 #Research

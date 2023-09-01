@@ -1,3 +1,4 @@
-first_name,last_name,age,profession,country,favorite_film,favorite_singer,favorite_chips
+first_name,last_name,age,profession,country,favorite_film,favorite_singer,favorite_chips,car
 Smbat,Paloyan,23,Jarvis,Gothem,Dark_Knight,Snoop_doggy_dogg,Lays_paprika(riflenniy)
 Hovhannes,Stepanyan,25,Master_shifu,221B_Baker_Street,Sherlock,Oxxxymiron,Lays(mec)
+Grigor,Manukyan,28,enginer,Echmiadzin,Gladiator,2Pac,Lays
