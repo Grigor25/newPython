@@ -1,10 +1,16 @@
-def fib(num):
-    li = [1,2,3]
-    if num < 0:
-        return 'please write int number'
-    if num in li:
-        return num
-    else:
-        while len(li) < num:
-            li.append(li[-1] + li[-2])
-    return li[-1]
+
+def fib(n):
+    x = 1
+    y = 2
+    fib_number = 2
+    while fib_number != n:
+        if n < 2:
+            return n
+        else:
+            print(fib_number)
+            x,y = y,x + y
+            print(x,y)
+            fib_number += 1
+    return y
+
+print(fib_2(1),'fib2')
