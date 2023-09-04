@@ -2,3 +2,5 @@ email,password,first_name,last_name
 smbatpaloyan@gmail.com,123456789,Smbat,Paloyan
 27626hovo@gmail.com,12345,Hovhannes,Stepanyan
 dav.manukyan.70@mail.ru,Ronaldinio1,Grigor,Manukyan
+dav.manukyan.70@mail.ru,Ronaldinio1,Grigor,Manukyan
+sadfas,fsafasfas,fasfas,fasfas
