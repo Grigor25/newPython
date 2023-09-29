@@ -8,10 +8,8 @@ class Car:
     def start(self):
         print('br br br')
         self.started = True
-        print(self.__dict__)
 
     def brand_modle(self):
-        print(self.model,self.brand)
         return  self.brand + self.model
 
     def stop(self):
@@ -21,7 +19,7 @@ class Car:
     def model_year(self):
         return 2023 - self.year
 
-    def color_change(self,color):
+    def color_change(self, color):
         self.color = color
 
 bmv = Car('Bmw','X5','Red','2010')
