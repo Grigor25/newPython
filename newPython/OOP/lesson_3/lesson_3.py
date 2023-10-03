@@ -7,11 +7,11 @@ class Animal:
         self.color = color
         self.runing_speed = runing_speed
 
-    def animal_voice(self):
+    def voice(self):
         return 'dzayn em hanum'
 
     def run(self):
-        print(f'vazum em {self.runing_speed}')
+        print(f'vazum em {self.runing_speed} aragutyamb')
 
     def __str__(self):
         return 'Animal'
@@ -21,11 +21,11 @@ class Cat(Animal):
     def __init__(self, *args):
         super().__init__(*args)
 
-    def animal_cat_voice(self):
-        return f'mlavelu {super().animal_voice()}'
+    def voice(self):
+        return f'mlavelu {super().voice()}'
 
-    def cat_voice(self):
-        super().animal_voice()
+    def cat_run_voice(self):
+        super().voice()
         print(self.run())
 
     def __str__(self):
@@ -34,7 +34,7 @@ class Cat(Animal):
 
 
 mumu = Cat(5, 2, 2, 2)
-print(mumu.animal_cat_voice())
+print(mumu.voice())
 print(mumu.__dict__)
 
 
