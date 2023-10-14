@@ -1,3 +1,10 @@
+#1 jarangakanutyun@ hnaravorutyun e talis nuyn method@ ogtagortsel kanvats objecneric tarber kerp
+
+#2abstract class@ ir mech uni mek method vor@ pardadir petqe entaka lini popoxman,nranic
+#himnakanum chen stextsum objectner
+
+
+
 import re
 
 #3
